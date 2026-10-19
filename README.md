@@ -1,5 +1,8 @@
 # Android TV Package Manager
 
+<img width="1239" height="929" alt="image" src="https://github.com/user-attachments/assets/25ce379a-55c4-44a8-9d83-d52b49aced7c" />
+
+
 Find your Android TV on your home network and choose which apps to disable or turn back on, using a simple Windows app.
 
 **Enable debugging on the TV → open `TVAppManager.exe` → connect.**
