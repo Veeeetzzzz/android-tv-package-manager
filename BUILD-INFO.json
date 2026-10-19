@@ -1,0 +1,8 @@
+{
+  "version": "0.1.0",
+  "architecture": "windows-x64",
+  "python": "3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]",
+  "pyinstaller": "6.22.3",
+  "source_sha256": "D0A83E7C9EB334F1668933BBF5AA9E793A491C9960EEFBAC348346573FBE3687",
+  "adb_sha256": "B4A6B455702684652CCCF7B46258B29E653538904359A58FD4931CF3EF286B3F"
+}

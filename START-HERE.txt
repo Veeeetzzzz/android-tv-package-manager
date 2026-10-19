@@ -1,0 +1,38 @@
+TV App Manager for Windows x64
+
+Extract the entire ZIP, then double-click TVAppManager.exe.
+Python and Tkinter are included in the executable. No Python installation,
+pip packages or administrator installation is required.
+
+Keep the adb folder alongside TVAppManager.exe. It contains Google's ADB,
+its companion DLLs and its notices. Do not copy the EXE out of this folder
+unless you provide another working ADB through the app's Choose ADB button.
+
+Enable debugging on your Android TV. Keep the computer and TV on the same
+network. Select the discovered TV, Connect, and accept its debugging prompt.
+
+Every app starts unselected. The Disabling assessment column gives guidance:
+  Optional if unused: only when you do not want that app's features.
+  Test individually: lower-risk candidates, not proven safe removal.
+  Keep for features: casting, accessibility, screensavers, TV features, etc.
+  Leave alone: core services, setup or shared dependencies.
+  Unreviewed: leave alone: no adequate removal assessment exists.
+
+Click a row for its explanation. Current state is separate from the assessment.
+Search accepts app names, package IDs and assessment labels.
+Use the checkbox to select an app, then review Disable or Re-enable.
+Refresh, reconnect and changing TVs clear the selection. Nothing is changed
+by scanning or connecting. Unknown app names are displayed as package IDs.
+
+The package review is conditional and is not a guarantee for every TV firmware.
+There is no uninstall button. Existing disabled apps stay disabled until you
+explicitly choose to re-enable them. The app stops on the first change failure;
+earlier successful changes remain, so refresh to inspect the resulting state.
+
+Change log: %LOCALAPPDATA%\TVAppManager\tv-toolkit-actions.jsonl
+Discovery: private IPv4, port 5555, wireless ADB and TV/media advertisements.
+For pairing-code debugging, Pair first, discover again, then Connect using
+the connection port. Pairing and connection ports may differ.
+
+This is an unsigned preview build. Included license notices are in licenses/
+and adb/NOTICE.txt. SHA256SUMS.txt records the packaged file hashes.
